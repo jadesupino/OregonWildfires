@@ -38,4 +38,4 @@ The dataset underwent the following preprocessing steps:
 - Sorting and ranking fire sizes
 
 ## Conclusion
-This project provides a comprehensive analysis of wildfire activity in Oregon over a 22-year period. Through statistical analysis and actionable insighs, it highlights wildfire patterns, major causes, and thescale of fire events across the state of Oregon. These findings can support environmental research, public policy discussions, and wildfire risk awareness initiatives.
+This project provides a comprehensive analysis of wildfire activity in Oregon over a 22-year period. Through statistical analysis and actionable insights, it highlights wildfire patterns, major causes, and the scale of fire events across the state of Oregon. These findings can support environmental research, public policy discussions, and wildfire risk awareness initiatives.
