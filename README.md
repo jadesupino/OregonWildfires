@@ -1,22 +1,24 @@
 # Oregon Wildfires Analysis (2000-2022)
 
 ## Overview
-This project analyzes wildfire occurrences across the state of Oregon from 2000 to 2022 using the ODF Fire Occurrence Data 2000-2022 dataset from Oregon.gov Open Data Portal. Using official fire incident data, this analysis uncovers trends in fire frequency, causes, sizes, and geographic distribution.
+This project analyzes wildfire occurrences across the state of Oregon from 2000 to 2022. Using official fire incident data, this analysis uncovers trends in fire frequency, causes, sizes, and geographic distribution.
 
-### Dataset Source
+### Dataset
 https://data.oregon.gov/Natural-Resources/ODF-Fire-Occurrence-Data-2000-2022/fbwv-q84y
-- Total Records: 23,500+
-- Total Attributes: 38
+- Name: ODF Fire Occurrence Data 2000-2022
+- Source: Oregon.gov Open Data Portal
+- Records: 23,500+
+- Attributes: 38
 - Time Range: 2000 - 2022
 
 ## Project Objectives
 This analysis aims to:
-1. Examine fire activity across different areas of Oregon
-2. Identify and analyze various fire causes
-3. Categorize fires by size classification
-4. Determine the top 20 largest fires over the years
-5. Identify and analyze all fires that occurred in 2022
-6. Analyze fires by fire Year, category, and size
+1. Examine fire activity across different regions of Oregon
+2. Identify primary fire causes and their relative impact
+3. Categorize fires by size classification and acreage burned
+4. Identify the top 20 largest fires
+5. Investigate wildfire activity in 2022
+6. Explore relationships between fire year, cause, and size
 
 ## Tools & Technologies
 This analysis was conducted using Python within a Jupyter Notebook environment.
@@ -32,8 +34,6 @@ This analysis was conducted using Python within a Jupyter Notebook environment.
 ## Data Processing & Preparation
 The dataset underwent the following preprocessing steps:
 - Data cleaning and handling missing values
-- Converting date fields into datetime format
-- Feature engineering (fire year extraction, size categorization)
 - Filtering and grouping data for analysis
 - Sorting and ranking fire sizes
 
